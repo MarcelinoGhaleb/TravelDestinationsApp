@@ -5,7 +5,7 @@ import HomeScreen from '../components/HomeScreen';
 import DetailsScreen from '../components/DetailsScreen';
 import SettingsScreen from '../components/SettingsScreen';
 import DescriptionScreen from '../components/DescriptionScreen';
-import {commonStyles} from '../styles/common';
+import {commonStyles} from '../styles/styles';
 import {useLanguage} from '../context/LanguageContext';
 
 const Stack = createStackNavigator();

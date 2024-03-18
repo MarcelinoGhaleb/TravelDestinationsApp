@@ -1,7 +1,7 @@
 import React from 'react';
 import {View, Text, Button, TouchableOpacity} from 'react-native';
-import {commonStyles} from '../styles/common';
-import {useNavigation} from '@react-navigation/native'; 
+import {commonStyles} from '../styles/styles';
+import {useNavigation} from '@react-navigation/native';
 import {useLanguage, Language} from '../context/LanguageContext';
 
 interface DetailsScreenProps {

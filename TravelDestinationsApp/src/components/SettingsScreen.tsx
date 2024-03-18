@@ -1,6 +1,6 @@
 import React from 'react';
 import {View, Text, Switch} from 'react-native';
-import {commonStyles} from '../styles/common';
+import {commonStyles} from '../styles/styles';
 import {
   useLanguage,
   Language,

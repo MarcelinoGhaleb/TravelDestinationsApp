@@ -1,6 +1,6 @@
 import React from 'react';
 import {View, Text, Button} from 'react-native';
-import {commonStyles} from '../styles/common';
+import {commonStyles} from '../styles/styles';
 import {useLanguage, Language} from '../context/LanguageContext';
 interface DescriptionScreenProps {
   route: any;
